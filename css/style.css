@@ -1,0 +1,86 @@
+html {
+	height:100%;
+}
+.left{ float: left; }
+
+.elasticdiv{ }
+
+
+#content{ width: 1400px;}
+
+#div1 {
+/*	background: url(../images/background1.jpg) no-repeat;*/
+}
+
+#div2{ background-color: #2e3b4e; }
+#div3{ background-color: #f1f1f1; }
+#div4{ background-color: #FFF; }
+#div5{ background-color: #f7f7f7; }
+#div6{ background-color: #000; }
+#div7{ background-color: #2e3b4e; }
+#div8{ background-color: #2e3b4e; }
+
+/*************** Media queries ******/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+		#div1{ min-height:800px; }
+		#div2{ min-height:800px; }
+		#div3{ min-height:800px; }
+		#div4{ min-height:800px; }
+		#div5{ min-height:800px; }
+		#div6{ min-height:800px; }
+		#div7{ min-height:800px; }
+		#div8{ min-height:800px; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#div1{ min-height:750px; }
+	#div2{ min-height:750px; }
+	#div3{ min-height:750px; }
+	#div4{ min-height:750px; }
+	#div5{ min-height:750px; }
+	#div6{ min-height:750px; }
+	#div7{ min-height:750px; }
+	#div8{ min-height:750px; }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#div1{ min-height:700px; }
+	#div2{ min-height:700px; }
+	#div3{ min-height:700px; }
+	#div4{ min-height:700px; }
+	#div5{ min-height:700px; }
+	#div6{ min-height:700px; }
+	#div7{ min-height:700px; }
+	#div8{ min-height:700px; }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#div1{ min-height:400px; }
+	#div2{ min-height:400px; }
+	#div3{ min-height:400px; }
+	#div4{ min-height:400px; }
+	#div5{ min-height:400px; }
+	#div6{ min-height:400px; }
+	#div7{ min-height:400px; }
+	#div8{ min-height:400px; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#div1{ min-height:400px; }
+	#div2{ min-height:400px; }
+	#div3{ min-height:400px; }
+	#div4{ min-height:400px; }
+	#div5{ min-height:400px; }
+	#div6{ min-height:400px; }
+	#div7{ min-height:400px; }
+	#div8{ min-height:400px; }
+
+}

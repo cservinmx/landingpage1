@@ -1,15 +1,21 @@
 html {
 	height:100%;
+	width:100%;
+}
+.inner_slide{
+		margin: 20px 20px 20px 20px;
+		border: #ccc solid 2px;
+		height: 100%;
 }
 .left{ float: left; }
+.callbuttons{ }
+.titles{ }
+.creditcard{}
 
 .elasticdiv{ }
-
-
-#content{ width: 1400px;}
-
+/*#content{ width: 1400px;}*/
 #div1 {
-/*	background: url(../images/background1.jpg) no-repeat;*/
+	/*background: url(../images/back1.jpg) no-repeat;*/
 }
 
 #div2{ background-color: #2e3b4e; }
@@ -18,7 +24,9 @@ html {
 #div5{ background-color: #f7f7f7; }
 #div6{ background-color: #000; }
 #div7{ background-color: #2e3b4e; }
-#div8{ background-color: #2e3b4e; }
+#div8{ background-color: #f1f1f1; }
+
+
 
 /*************** Media queries ******/
 
@@ -47,7 +55,20 @@ html {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Kindle devices (laptops/desktops, 800px*1280) */
+@media only screen and (min-width: 800px) {
+	#div1{ min-height:750px; }
+	#div2{ min-height:750px; }
+	#div3{ min-height:750px; }
+	#div4{ min-height:750px; }
+	#div5{ min-height:750px; }
+	#div6{ min-height:750px; }
+	#div7{ min-height:750px; }
+	#div8{ min-height:750px; }
+
+}
+
+/* iPad, Kindle Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	#div1{ min-height:700px; }
 	#div2{ min-height:700px; }
@@ -74,6 +95,45 @@ html {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+	#div1{ min-height:400px; }
+	#div2{ min-height:400px; }
+	#div3{ min-height:400px; }
+	#div4{ min-height:400px; }
+	#div5{ min-height:400px; }
+	#div6{ min-height:400px; }
+	#div7{ min-height:400px; }
+	#div8{ min-height:400px; }
+
+}
+
+/* Iphone 6/7/8 plus  devices (portrait tablets and large phones, 414*736px and up) */
+@media only screen and (min-width: 414px) {
+	#div1{ min-height:400px; }
+	#div2{ min-height:400px; }
+	#div3{ min-height:400px; }
+	#div4{ min-height:400px; }
+	#div5{ min-height:400px; }
+	#div6{ min-height:400px; }
+	#div7{ min-height:400px; }
+	#div8{ min-height:400px; }
+
+}
+
+/* Iphone 6/7/8 & X/XS devices (portrait tablets and large phones, 375*667px and 375*812 for X/XS) */
+@media only screen and (min-width: 375px) {
+	#div1{ min-height:400px; }
+	#div2{ min-height:400px; }
+	#div3{ min-height:400px; }
+	#div4{ min-height:400px; }
+	#div5{ min-height:400px; }
+	#div6{ min-height:400px; }
+	#div7{ min-height:400px; }
+	#div8{ min-height:400px; }
+
+}
+
+/* Galaxy s9/s9+ devices (portrait tablets and large phones, 360*740px) */
+@media only screen and (min-width: 350px) {
 	#div1{ min-height:400px; }
 	#div2{ min-height:400px; }
 	#div3{ min-height:400px; }
